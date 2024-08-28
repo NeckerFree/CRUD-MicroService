@@ -1,13 +1,15 @@
-﻿namespace Inventory.DataModel
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Inventory.DataModel
 {
-    // Clase intermedia para la relación muchos a muchos entre Product y Warehouse
+    [PrimaryKey(nameof(ProductId), nameof(WarehouseId))]
     public class ProductWarehouse
     {
         public int ProductId { get; set; }
-        public Product Product { get; set; }
+        public required Product Product { get; set; }
 
         public int WarehouseId { get; set; }
-        public Warehouse Warehouse { get; set; }
+        public required Warehouse Warehouse { get; set; }
     }
 
 }

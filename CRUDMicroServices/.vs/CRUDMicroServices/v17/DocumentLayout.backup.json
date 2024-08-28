@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.datamodel\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|solutionrelative:inventory.datamodel\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECE5D3C4-0036-44D4-817D-3F86EEA69DBB}|Inventory.API\\Inventory.API.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.api\\controllers\\productwarehousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE5D3C4-0036-44D4-817D-3F86EEA69DBB}|Inventory.API\\Inventory.API.csproj|solutionrelative:inventory.api\\controllers\\productwarehousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.datamodel\\inventory.datamodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|solutionrelative:inventory.datamodel\\inventory.datamodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.datamodel\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|solutionrelative:inventory.datamodel\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECE5D3C4-0036-44D4-817D-3F86EEA69DBB}|Inventory.API\\Inventory.API.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE5D3C4-0036-44D4-817D-3F86EEA69DBB}|Inventory.API\\Inventory.API.csproj|solutionrelative:inventory.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InventoryContext.cs",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\InventoryContext.cs",
-              "RelativeDocumentMoniker": "Inventory.DataModel\\InventoryContext.cs",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\InventoryContext.cs",
-              "RelativeToolTip": "Inventory.DataModel\\InventoryContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:44:07.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Inventory.DataModel",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\Inventory.DataModel.csproj",
-              "RelativeDocumentMoniker": "Inventory.DataModel\\Inventory.DataModel.csproj",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\Inventory.DataModel.csproj",
-              "RelativeToolTip": "Inventory.DataModel\\Inventory.DataModel.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-27T01:40:41.135Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -100,15 +70,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\Product.cs",
-              "RelativeDocumentMoniker": "Inventory.DataModel\\Product.cs",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\Product.cs",
-              "RelativeToolTip": "Inventory.DataModel\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductWarehousesController.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.API\\Controllers\\ProductWarehousesController.cs",
+              "RelativeDocumentMoniker": "Inventory.API\\Controllers\\ProductWarehousesController.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.API\\Controllers\\ProductWarehousesController.cs",
+              "RelativeToolTip": "Inventory.API\\Controllers\\ProductWarehousesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:36:32.299Z",
+              "WhenOpened": "2024-08-28T02:02:02.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Inventory.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Inventory.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T01:56:58.293Z",
               "EditorCaption": ""
             }
           ]

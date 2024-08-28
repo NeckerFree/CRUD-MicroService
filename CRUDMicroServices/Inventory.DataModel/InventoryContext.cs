@@ -2,7 +2,7 @@
 
 namespace Inventory.DataModel
 {
-    internal class InventoryContext: DbContext
+    public class InventoryContext: DbContext
     {
         public InventoryContext(DbContextOptions<InventoryContext> options) : base(options)
         { }
@@ -10,5 +10,6 @@ namespace Inventory.DataModel
         public DbSet<Product> Products { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Warehouse> Warehouses { get; set; }
+        public DbSet<ProductWarehouse> ProductWarehouses { get; set; }
     }
 }

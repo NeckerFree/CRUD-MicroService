@@ -3,14 +3,14 @@
     public class Supplier
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string ContactEmail { get; set; }
-        public string Phone { get; set; }
-        public string Address { get; set; }
-        public string Country { get; set; }
+        public required string Name { get; set; }
+        public required string ContactEmail { get; set; }
+        public required string Phone { get; set; }
+        public required string Address { get; set; }
+        public required string Country { get; set; }
 
         // Relación con Product (uno a muchos)
-        public ICollection<Product> Products { get; set; } // Un proveedor puede suministrar muchos productos
+        public ICollection<Product>? Products { get; set; } // Un proveedor puede suministrar muchos productos
     }
 
 }

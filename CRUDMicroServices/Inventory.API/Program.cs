@@ -9,7 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<InventoryContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration["ConnectionString"],
+    options.UseSqlServer(builder.Configuration["InventoryConnection"],
     sqlServerOptionsAction: sqlOptions =>
     {
         sqlOptions.MigrationsAssembly(

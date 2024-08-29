@@ -270,9 +270,15 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[What command are required to Create SQL Server DB using Code First?]**
 
-  - [Answer_1]
+  - [Run next commands:
+  dotnet add Inventory.DataModel package Microsoft.EntityFrameworkCore.Design
+  dotnet add Inventory.DataModel package Microsoft.EntityFrameworkCore.SqlServer
+  dotnet add Inventory.DataModel package Microsoft.EntityFrameworkCore.Tools
+  dotnet tool update --global dotnet-ef
+  dotnet ef migrations add InitialCreate --project Inventory.DataModel
+  dotnet ef database update --project Inventory.DataModel]
 
 - **[Question_2]**
 
@@ -289,3 +295,6 @@ This project is [MIT](./LICENSE) licensed.
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+

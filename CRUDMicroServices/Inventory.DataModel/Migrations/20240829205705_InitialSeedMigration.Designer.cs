@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Inventory.DataModel.Migrations
 {
     [DbContext(typeof(InventoryContext))]
-    [Migration("20240829025821_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240829205705_InitialSeedMigration")]
+    partial class InitialSeedMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,6 +55,26 @@ namespace Inventory.DataModel.Migrations
                     b.HasIndex("SupplierId");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Description for Product One",
+                            Name = "Product One",
+                            Price = 19.99m,
+                            StockQuantity = 100,
+                            SupplierId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Description for Product Two",
+                            Name = "Product Two",
+                            Price = 29.99m,
+                            StockQuantity = 200,
+                            SupplierId = 2
+                        });
                 });
 
             modelBuilder.Entity("Inventory.DataModel.ProductWarehouse", b =>
@@ -70,6 +90,18 @@ namespace Inventory.DataModel.Migrations
                     b.HasIndex("WarehouseId");
 
                     b.ToTable("ProductWarehouses");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = 1,
+                            WarehouseId = 1
+                        },
+                        new
+                        {
+                            ProductId = 2,
+                            WarehouseId = 2
+                        });
                 });
 
             modelBuilder.Entity("Inventory.DataModel.Supplier", b =>
@@ -103,6 +135,26 @@ namespace Inventory.DataModel.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Suppliers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "123 Main St, Cityville",
+                            ContactEmail = "supplier1@example.com",
+                            Country = "USA",
+                            Name = "Supplier One",
+                            Phone = "123-456-7890"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Address = "456 Side St, Townsville",
+                            ContactEmail = "supplier2@example.com",
+                            Country = "Canada",
+                            Name = "Supplier Two",
+                            Phone = "098-765-4321"
+                        });
                 });
 
             modelBuilder.Entity("Inventory.DataModel.Warehouse", b =>
@@ -134,36 +186,50 @@ namespace Inventory.DataModel.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Warehouses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Capacity = 500,
+                            IsActive = true,
+                            Location = "Warehouse Location 1",
+                            Manager = "Manager One",
+                            Phone = "111-222-3333"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Capacity = 300,
+                            IsActive = true,
+                            Location = "Warehouse Location 2",
+                            Manager = "Manager Two",
+                            Phone = "444-555-6666"
+                        });
                 });
 
             modelBuilder.Entity("Inventory.DataModel.Product", b =>
                 {
-                    b.HasOne("Inventory.DataModel.Supplier", "Supplier")
+                    b.HasOne("Inventory.DataModel.Supplier", null)
                         .WithMany("Products")
                         .HasForeignKey("SupplierId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Supplier");
                 });
 
             modelBuilder.Entity("Inventory.DataModel.ProductWarehouse", b =>
                 {
-                    b.HasOne("Inventory.DataModel.Product", "Product")
+                    b.HasOne("Inventory.DataModel.Product", null)
                         .WithMany("ProductWarehouses")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Inventory.DataModel.Warehouse", "Warehouse")
+                    b.HasOne("Inventory.DataModel.Warehouse", null)
                         .WithMany("ProductWarehouses")
                         .HasForeignKey("WarehouseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Product");
-
-                    b.Navigation("Warehouse");
                 });
 
             modelBuilder.Entity("Inventory.DataModel.Product", b =>

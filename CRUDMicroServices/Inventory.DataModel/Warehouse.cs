@@ -8,9 +8,7 @@
         public required string Manager { get; set; }
         public required string Phone { get; set; }
         public bool IsActive { get; set; }
-
-        // Relación muchos a muchos con Product
-        public ICollection<ProductWarehouse>? ProductWarehouses { get; set; } // Un almacén puede almacenar muchos productos
+        public ICollection<ProductWarehouse>? ProductWarehouses { get; set; } 
     }
 
 }

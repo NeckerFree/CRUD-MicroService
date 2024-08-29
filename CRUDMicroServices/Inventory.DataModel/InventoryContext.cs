@@ -20,7 +20,10 @@ namespace Inventory.DataModel
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price)
                 .HasPrecision(18, 2);
+
+            DbContextSeed.Seed(modelBuilder);
         }
+      
         public DbSet<Product> Products { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Warehouse> Warehouses { get; set; }

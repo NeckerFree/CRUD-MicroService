@@ -9,8 +9,7 @@
         public required string Address { get; set; }
         public required string Country { get; set; }
 
-        // Relación con Product (uno a muchos)
-        public ICollection<Product>? Products { get; set; } // Un proveedor puede suministrar muchos productos
-    }
+
+        public ICollection<Product>? Products { get; set; }
 
 }

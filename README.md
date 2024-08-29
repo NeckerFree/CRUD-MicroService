@@ -278,7 +278,9 @@ I would like to thank...
   dotnet add Inventory.DataModel package Microsoft.EntityFrameworkCore.Tools
   dotnet tool update --global dotnet-ef
   dotnet ef migrations add InitialCreate --project Inventory.DataModel
-  dotnet ef database update --project Inventory.DataModel]
+  dotnet ef database update --project Inventory.DataModel
+  dotnet ef migrations remove --project Inventory.DataModel
+ ]
 
 - **[Question_2]**
 

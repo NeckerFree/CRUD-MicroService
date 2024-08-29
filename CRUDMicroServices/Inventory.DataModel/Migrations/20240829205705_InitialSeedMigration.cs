@@ -2,10 +2,12 @@
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace Inventory.DataModel.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class InitialSeedMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -89,6 +91,42 @@ namespace Inventory.DataModel.Migrations
                         principalTable: "Warehouses",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Suppliers",
+                columns: new[] { "Id", "Address", "ContactEmail", "Country", "Name", "Phone" },
+                values: new object[,]
+                {
+                    { 1, "123 Main St, Cityville", "supplier1@example.com", "USA", "Supplier One", "123-456-7890" },
+                    { 2, "456 Side St, Townsville", "supplier2@example.com", "Canada", "Supplier Two", "098-765-4321" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Warehouses",
+                columns: new[] { "Id", "Capacity", "IsActive", "Location", "Manager", "Phone" },
+                values: new object[,]
+                {
+                    { 1, 500, true, "Warehouse Location 1", "Manager One", "111-222-3333" },
+                    { 2, 300, true, "Warehouse Location 2", "Manager Two", "444-555-6666" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Products",
+                columns: new[] { "Id", "Description", "Name", "Price", "StockQuantity", "SupplierId" },
+                values: new object[,]
+                {
+                    { 1, "Description for Product One", "Product One", 19.99m, 100, 1 },
+                    { 2, "Description for Product Two", "Product Two", 29.99m, 200, 2 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "ProductWarehouses",
+                columns: new[] { "ProductId", "WarehouseId" },
+                values: new object[,]
+                {
+                    { 1, 1 },
+                    { 2, 2 }
                 });
 
             migrationBuilder.CreateIndex(

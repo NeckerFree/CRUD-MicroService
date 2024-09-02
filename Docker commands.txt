@@ -1,0 +1,9 @@
+Install SQL Server in Docker
+
+docker pull mcr.microsoft.com/mssql/server 
+https://www.youtube.com/watch?v=ORyLeidRqMU
+
+https://www.youtube.com/watch?v=KISyPtUBqbc (Docker en WSL)
+docker run hello-world (test)
+
+docker run --name "[Server]" -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=AppPwd#1234" -p 1433:1433 -d mcr.microsoft.com/mssql/server

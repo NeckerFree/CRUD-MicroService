@@ -13,7 +13,7 @@ namespace Inventory.DataModel
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=LAPTOP-89ED63S7;Initial Catalog=InventoryDb; User Id=AppUser;Password=AppPwd;Encrypt=False;");
+            optionsBuilder.UseSqlServer("Data Source=localhost,1433;Initial Catalog=InventoryDb; User Id=AppUser;Password=AppPwd;Encrypt=False;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

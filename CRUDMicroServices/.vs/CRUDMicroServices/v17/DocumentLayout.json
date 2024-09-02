@@ -3,15 +3,12 @@
   "WorkspaceRootPath": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Elio\\Development\\Projects\\CRUD-MicroService\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.datamodel\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|solutionrelative:inventory.datamodel\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.datamodel\\migrations\\20240829205705_initialseedmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|solutionrelative:inventory.datamodel\\migrations\\20240829205705_initialseedmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.datamodel\\dbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|solutionrelative:inventory.datamodel\\dbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECE5D3C4-0036-44D4-817D-3F86EEA69DBB}|Inventory.API\\Inventory.API.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ECE5D3C4-0036-44D4-817D-3F86EEA69DBB}|Inventory.API\\Inventory.API.csproj|solutionrelative:inventory.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 12,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240829205705_InitialSeedMigration.cs",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\Migrations\\20240829205705_InitialSeedMigration.cs",
-              "RelativeDocumentMoniker": "Inventory.DataModel\\Migrations\\20240829205705_InitialSeedMigration.cs",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\Migrations\\20240829205705_InitialSeedMigration.cs",
-              "RelativeToolTip": "Inventory.DataModel\\Migrations\\20240829205705_InitialSeedMigration.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T20:57:42.921Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -86,28 +70,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DbContextSeed.cs",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\DbContextSeed.cs",
-              "RelativeDocumentMoniker": "Inventory.DataModel\\DbContextSeed.cs",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\DbContextSeed.cs",
-              "RelativeToolTip": "Inventory.DataModel\\DbContextSeed.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAQwEgAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\Supplier.cs",
+              "RelativeDocumentMoniker": "Inventory.DataModel\\Supplier.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\Supplier.cs",
+              "RelativeToolTip": "Inventory.DataModel\\Supplier.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T20:44:15.379Z",
+              "WhenOpened": "2024-08-31T01:51:26.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\README.md",
-              "RelativeDocumentMoniker": "..\\README.md",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\README.md",
-              "RelativeToolTip": "..\\README.md",
-              "ViewState": "AgIAABEBAAAAAAAAAAAAABkBAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-08-29T20:40:47.768Z",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Inventory.API\\Dockerfile",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.API\\Dockerfile",
+              "RelativeToolTip": "Inventory.API\\Dockerfile",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-31T01:50:47.236Z",
               "EditorCaption": ""
             }
           ]

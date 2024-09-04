@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.datamodel\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1002EBD7-819B-490D-BAD4-ED62D068A758}|Inventory.DataModel\\Inventory.DataModel.csproj|solutionrelative:inventory.datamodel\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECE5D3C4-0036-44D4-817D-3F86EEA69DBB}|Inventory.API\\Inventory.API.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{ECE5D3C4-0036-44D4-817D-3F86EEA69DBB}|Inventory.API\\Inventory.API.csproj|solutionrelative:inventory.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{EBA53CA7-B2AA-4634-9494-EDD65BE52A1E}|Inventory.AuthManagement\\Inventory.AuthManagement.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.authmanagement\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA53CA7-B2AA-4634-9494-EDD65BE52A1E}|Inventory.AuthManagement\\Inventory.AuthManagement.csproj|solutionrelative:inventory.authmanagement\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 836,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,29 +65,20 @@
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Supplier.cs",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\Supplier.cs",
-              "RelativeDocumentMoniker": "Inventory.DataModel\\Supplier.cs",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.DataModel\\Supplier.cs",
-              "RelativeToolTip": "Inventory.DataModel\\Supplier.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T01:51:26.592Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.API\\Dockerfile",
-              "RelativeDocumentMoniker": "Inventory.API\\Dockerfile",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.API\\Dockerfile",
-              "RelativeToolTip": "Inventory.API\\Dockerfile",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-31T01:50:47.236Z",
+              "DocumentIndex": 0,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthManagement\\Address.cs",
+              "RelativeDocumentMoniker": "Inventory.AuthManagement\\Address.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthManagement\\Address.cs",
+              "RelativeToolTip": "Inventory.AuthManagement\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:24:10.832Z",
               "EditorCaption": ""
             }
           ]

@@ -281,7 +281,9 @@ This project is inspired in the [Microsoft DataDrivenCrudMicroservicebArticle] (
   dotnet ef database update --project Inventory.DataModel
   dotnet ef migrations remove --project Inventory.DataModel
  ]
-
+ dotnet tool install --global dotnet-ef
+dotnet ef migrations add InitialCreate --project Inventory.AuthManagement
+dotnet ef database update --project Inventory.AuthManagement
 - **[Question_2]**
 
   - [Answer_2]

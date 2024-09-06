@@ -2,7 +2,7 @@
 
 namespace Inventory.AuthManagement
 {
-    internal class AuthContext: DbContext
+    public class AuthContext: DbContext
     {
         public AuthContext()
         {
@@ -17,7 +17,7 @@ namespace Inventory.AuthManagement
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=localhost,1433;Initial Catalog=InventoryDb; User Id=AppUser;Password=AppPwd;Encrypt=False;");
+            optionsBuilder.UseSqlServer("Data Source=localhost,1433;Initial Catalog=AuthDb; User Id=AppUser;Password=AppPwd;Encrypt=False;");
         }
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<Role> Roles { get; set; }

@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.API", "Inventory.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.DataModel", "Inventory.DataModel\Inventory.DataModel.csproj", "{1002EBD7-819B-490D-BAD4-ED62D068A758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.ProductManagement", "Inventory.ProductManagement\Inventory.ProductManagement.csproj", "{239B35F8-F4D6-4731-9AE2-2A0E4E402C3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.ProductManagement", "Inventory.ProductManagement\Inventory.ProductManagement.csproj", "{239B35F8-F4D6-4731-9AE2-2A0E4E402C3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.StockManagement", "Inventory.StockManagement\Inventory.StockManagement.csproj", "{0BD8CBA7-5E1A-436B-BF28-032784AF7C34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.StockManagement", "Inventory.StockManagement\Inventory.StockManagement.csproj", "{0BD8CBA7-5E1A-436B-BF28-032784AF7C34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.OrderManagement", "Inventory.OrderManagement\Inventory.OrderManagement.csproj", "{F3A595FB-285D-471D-9808-F3A925025EF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.OrderManagement", "Inventory.OrderManagement\Inventory.OrderManagement.csproj", "{F3A595FB-285D-471D-9808-F3A925025EF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.AuthManagement", "Inventory.AuthManagement\Inventory.AuthManagement.csproj", "{EBA53CA7-B2AA-4634-9494-EDD65BE52A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.AuthManagement", "Inventory.AuthManagement\Inventory.AuthManagement.csproj", "{EBA53CA7-B2AA-4634-9494-EDD65BE52A1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.SupplierManagement", "Inventory,SupplierManagement\Inventory.SupplierManagement.csproj", "{778D9289-9286-4ACA-B729-AD75164EE40E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.SupplierManagement", "Inventory,SupplierManagement\Inventory.SupplierManagement.csproj", "{778D9289-9286-4ACA-B729-AD75164EE40E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.ReportManagement", "Inventory.ReportManagement\Inventory.ReportManagement.csproj", "{9FEA7072-7439-4D89-BCA4-D9E5873333C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.ReportManagement", "Inventory.ReportManagement\Inventory.ReportManagement.csproj", "{9FEA7072-7439-4D89-BCA4-D9E5873333C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.AuthAPI", "Inventory.AuthAPI\Inventory.AuthAPI.csproj", "{5AFB7A4A-6843-46D9-912C-EDB26BA14076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{9FEA7072-7439-4D89-BCA4-D9E5873333C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FEA7072-7439-4D89-BCA4-D9E5873333C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FEA7072-7439-4D89-BCA4-D9E5873333C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFB7A4A-6843-46D9-912C-EDB26BA14076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFB7A4A-6843-46D9-912C-EDB26BA14076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFB7A4A-6843-46D9-912C-EDB26BA14076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFB7A4A-6843-46D9-912C-EDB26BA14076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

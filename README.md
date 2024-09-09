@@ -301,4 +301,7 @@ _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
+Run dockerfile as userauth:
+docker build -t userauth .
+docker run -p 8083:80 -e ASPNETCORE_URLS="http://+:80" userauth
+docker run -p 8083:80 -e ASPNETCORE_URLS="http://+:80" -e ConnectionStrings__DefaultConnection="Data Source=localhost,1433;Initial Catalog=AuthDb; User Id=AppUser;Password=AppPwd;Encrypt=False" userauth

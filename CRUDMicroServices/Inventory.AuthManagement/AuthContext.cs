@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Net.Sockets;
 
 namespace Inventory.AuthManagement
 {
@@ -17,7 +18,7 @@ namespace Inventory.AuthManagement
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=localhost,1433;Initial Catalog=AuthDb; User Id=AppUser;Password=AppPwd;Encrypt=False;");
+            optionsBuilder.UseSqlServer("Data Source=localhost,1433;Initial Catalog=AuthDb; User Id=sa;Password=AppPwd#1234;TrustServerCertificate=True");
         }
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<Role> Roles { get; set; }

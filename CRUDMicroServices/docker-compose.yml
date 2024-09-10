@@ -1,28 +1,27 @@
 version: '3.4'
 
 services:
+  authapi:
+    build: .
+    ports:
+      - "5002:80" # Expose port 5002 on the host, mapping to port 80 in the container
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__AuthConnection: "Data Source=localhost,1433;Initial Catalog=AuthDb; User Id=sa;Password=AppPwd#1234;TrustServerCertificate=True;"
+    networks:
+      - auth-network
+
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
     environment:
       SA_PASSWORD: "AppPwd#1234"
       ACCEPT_EULA: "Y"
     ports:
-      - "1434:1433"
+      - "1433:1433"
     networks:
-      - app-network
-
-  api:
-    build: .
-    ports:
-      - "8084:80"
-    environment:
-      ASPNETCORE_ENVIRONMENT: "Development"
-      ConnectionStrings__AuthConnection: "Server=ELIO_DOCKER,1433;Database=AuthDb;User Id=AppUser;Password=AppPwd;TrustServerCertificate=true;"
-    depends_on:
-      - sqlserver
-    networks:
-      - app-network
+      - auth-network
 
 networks:
-  app-network:
+  auth-network:
     driver: bridge
+

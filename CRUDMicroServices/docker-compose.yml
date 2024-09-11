@@ -1,27 +1,35 @@
-version: '3.4'
-
 services:
-  authapi:
-    build: .
-    ports:
-      - "5002:80" # Expose port 5002 on the host, mapping to port 80 in the container
-    environment:
-      ASPNETCORE_ENVIRONMENT: "Development"
-      ConnectionStrings__AuthConnection: "Data Source=localhost,1433;Initial Catalog=AuthDb; User Id=sa;Password=AppPwd#1234;TrustServerCertificate=True;"
-    networks:
-      - auth-network
-
-  sqlserver:
+  auth_db:
     image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: auth_db_docker
     environment:
-      SA_PASSWORD: "AppPwd#1234"
-      ACCEPT_EULA: "Y"
+      - SA_PASSWORD=AppPwd#1234
+      - ACCEPT_EULA=Y
     ports:
       - "1433:1433"
+    volumes:
+      - authdbdata:/var/opt/mssql
     networks:
-      - auth-network
+      - authnetwork
+
+  inventory.authapi:
+    image: inventory.authapi
+    build:
+      context: .
+      dockerfile: Inventory.AuthAPI/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__AuthDb="Data Source=localhost,1433;Initial Catalog=AuthDb;User Id=sa;Password=AppPwd#1234;TrustServerCertificate=True;";
+    ports:
+      - "5002:80"
+    depends_on:
+      - auth_db
+    networks:
+      - authnetwork
 
 networks:
-  auth-network:
+  authnetwork:
     driver: bridge
 
+volumes:
+  authdbdata:

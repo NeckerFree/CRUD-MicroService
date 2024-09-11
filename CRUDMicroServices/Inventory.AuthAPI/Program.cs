@@ -22,8 +22,17 @@ builder.Services.AddDbContext<AuthContext>(options =>
             errorNumbersToAdd: null);
     });
 });
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder => 
+        builder.AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader());
+});
 var app = builder.Build();
 
+app.UseCors("AllowAllOrigins");
     app.UseSwagger();
     app.UseSwaggerUI();
 

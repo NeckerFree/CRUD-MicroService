@@ -18,7 +18,7 @@ namespace Inventory.AuthManagement
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=localhost,1433;Initial Catalog=AuthDb; User Id=sa;Password=AppPwd#1234;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=localhost,1433;Database=AuthDb;User Id=sa;Password=AppPwd#1234;TrustServerCertificate=True;");
         }
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<Role> Roles { get; set; }

@@ -1,35 +1,20 @@
+networks:
+  inventorynetwork:
 services:
-  auth_db:
+  sqlserverinventory:
+    container_name: sqlserverinventory
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: auth_db_docker
     environment:
-      - SA_PASSWORD=AppPwd#1234
       - ACCEPT_EULA=Y
+      - SA_PASSWORD=AppPwd*1234
     ports:
       - "1433:1433"
-    volumes:
-      - authdbdata:/var/opt/mssql
     networks:
-      - authnetwork
-
+      - inventorynetwork
   inventory.authapi:
-    image: inventory.authapi
+    image: ${DOCKER_REGISTRY-}inventoryauthapi
     build:
       context: .
-      dockerfile: Inventory.AuthAPI/Dockerfile
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Production
-      - ConnectionStrings__AuthDb="Data Source=localhost,1433;Initial Catalog=AuthDb;User Id=sa;Password=AppPwd#1234;TrustServerCertificate=True;";
-    ports:
-      - "5002:80"
-    depends_on:
-      - auth_db
+      dockerfile: Inventory.AuthAPI/Dockerfile 
     networks:
-      - authnetwork
-
-networks:
-  authnetwork:
-    driver: bridge
-
-volumes:
-  authdbdata:
+      - inventorynetwork

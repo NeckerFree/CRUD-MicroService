@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBA53CA7-B2AA-4634-9494-EDD65BE52A1E}|Inventory.AuthManagement\\Inventory.AuthManagement.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.authmanagement\\authcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA53CA7-B2AA-4634-9494-EDD65BE52A1E}|Inventory.AuthManagement\\Inventory.AuthManagement.csproj|solutionrelative:inventory.authmanagement\\authcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.authapi\\inventory.authapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|solutionrelative:inventory.authapi\\inventory.authapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|solutionrelative:inventory.authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1544,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -60,8 +73,43 @@
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthContext.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthManagement\\AuthContext.cs",
+              "RelativeDocumentMoniker": "Inventory.AuthManagement\\AuthContext.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthManagement\\AuthContext.cs",
+              "RelativeToolTip": "Inventory.AuthManagement\\AuthContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCUAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T04:08:05.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inventory.AuthAPI",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Inventory.AuthAPI.csproj",
+              "RelativeDocumentMoniker": "Inventory.AuthAPI\\Inventory.AuthAPI.csproj",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Inventory.AuthAPI.csproj",
+              "RelativeToolTip": "Inventory.AuthAPI\\Inventory.AuthAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-13T03:07:15.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Inventory.AuthAPI\\Program.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Program.cs",
+              "RelativeToolTip": "Inventory.AuthAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:18:18.147Z",
+              "EditorCaption": ""
             }
           ]
         }

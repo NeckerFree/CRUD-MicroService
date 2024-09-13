@@ -9,6 +9,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AuthContext>(options =>
 {
+    string connectionString = Environment.GetEnvironmentVariable("AuthDockerConnection") ??
+                              builder.Configuration.GetConnectionString("AuthLocalConnection") ??
+                              throw new InvalidOperationException("Connection string not found.");
     options.UseSqlServer(builder.Configuration["AuthConnection"],
     sqlServerOptionsAction: sqlOptions =>
     {

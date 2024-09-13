@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage;
 using System.Net.Sockets;
 
 namespace Inventory.AuthManagement
@@ -10,7 +12,22 @@ namespace Inventory.AuthManagement
             
         }
         public AuthContext(DbContextOptions<AuthContext> options) : base(options)
-        {  
+        {
+            try
+            {
+                var dbCreator = Database.GetService<IDatabaseCreator>() as RelationalDatabaseCreator;
+                if (dbCreator != null)
+                {
+                    if (!dbCreator.CanConnect())
+                        dbCreator.Create();
+                    if (!dbCreator.HasTables())
+                        dbCreator.CreateTables();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -18,7 +35,7 @@ namespace Inventory.AuthManagement
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost,1433;Database=AuthDb;User Id=sa;Password=AppPwd#1234;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=sqlserverinventory;Database=AuthDb;User Id=sa;Password=AppPwd*1234;TrustServerCertificate=True;");
         }
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<Role> Roles { get; set; }

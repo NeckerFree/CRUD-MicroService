@@ -24,7 +24,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{255DF529-F517-4F81-A3A0-CADF7B97362E}"
 	ProjectSection(SolutionItems) = preProject
 		.dockerignore = .dockerignore
-		anteriordocker-compose.txt = anteriordocker-compose.txt
 	EndProjectSection
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}"

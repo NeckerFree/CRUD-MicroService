@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: inventory-authapi
+  annotations:
+    kubernetes.io/change-cause: "Initial deployment"
+spec:
+  replicas: 3
+  selector:
+    matchLabels:  
+      app: Inventory.AuthAPI
+  template:
+    metadata:
+      name: myinventoryapp
+      labels:
+        env: prod
+        app: Inventory.AuthAPI
+        app.kubernetes.io/name: Inventory.AuthAPI
+    spec:
+      containers:
+        - name: inventoryapp
+          image: necker3000/inventoryauthapi:v1
+          ports:
+            - containerPort: 80
+              name: http-auth-api
+          resources:
+            requests:
+              memory: 100Mi
+              cpu: 100m
+            limits:
+              memory: 200Mi
+              cpu: 200m
+          env:
+           - name: ASPNETCORE_URLS
+             value: http://+:80

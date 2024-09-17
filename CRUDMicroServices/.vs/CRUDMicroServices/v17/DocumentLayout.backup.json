@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.authapi\\properties\\publishprofiles\\registry.hub.docker.com_necker3000.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|solutionrelative:inventory.authapi\\properties\\publishprofiles\\registry.hub.docker.com_necker3000.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{255DF529-F517-4F81-A3A0-CADF7B97362E}|Solution Items{255DF529-F517-4F81-A3A0-CADF7B97362E}|C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\deployment.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{255DF529-F517-4F81-A3A0-CADF7B97362E}|Solution Items{255DF529-F517-4F81-A3A0-CADF7B97362E}|solutionrelative:deployment.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,27 +71,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-09-13T23:14:09.191Z",
+              "Title": "registry.hub.docker.com_necker3000.pubxml",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Properties\\PublishProfiles\\registry.hub.docker.com_necker3000.pubxml",
+              "RelativeDocumentMoniker": "Inventory.AuthAPI\\Properties\\PublishProfiles\\registry.hub.docker.com_necker3000.pubxml",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Properties\\PublishProfiles\\registry.hub.docker.com_necker3000.pubxml",
+              "RelativeToolTip": "Inventory.AuthAPI\\Properties\\PublishProfiles\\registry.hub.docker.com_necker3000.pubxml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-16T21:42:54.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\launchSettings.json",
-              "RelativeDocumentMoniker": "launchSettings.json",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\launchSettings.json",
-              "RelativeToolTip": "launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-13T23:04:56.964Z",
+              "Title": "deployment.txt",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\deployment.txt",
+              "RelativeDocumentMoniker": "deployment.txt",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\deployment.txt",
+              "RelativeToolTip": "deployment.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-16T21:25:33.431Z",
               "EditorCaption": ""
             }
           ]

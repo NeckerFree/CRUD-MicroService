@@ -6,6 +6,10 @@ https://www.youtube.com/watch?v=ORyLeidRqMU
 https://www.youtube.com/watch?v=KISyPtUBqbc (Docker en WSL)
 docker run hello-world (test)
 
+docker build -t inventory_docker_api:v1.0 -f Dockerfile .
+
+docker run -it -p 5002:80 --name inventory_api_container inventory_docker_api:v1.0
+
 docker run --name "ELIO_DOCKER" -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=AppPwd*1234" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
 
 https://www.youtube.com/watch?v=4BPpDNvs6pY (API +DB en Docker)
@@ -14,3 +18,4 @@ login from dotnet cli:
 docker login -u necker3000
 
 https://medium.com/@ersen/step-by-step-dockerizing-net-core-api-a2490752a3d2 (Step By Step Dockerizing .NET Core API)
+

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.authapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|solutionrelative:inventory.authapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{255DF529-F517-4F81-A3A0-CADF7B97362E}|Solution Items{255DF529-F517-4F81-A3A0-CADF7B97362E}|C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{255DF529-F517-4F81-A3A0-CADF7B97362E}|Solution Items{255DF529-F517-4F81-A3A0-CADF7B97362E}|solutionrelative:deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.authapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|solutionrelative:inventory.authapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1544,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "docker-compose",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T16:23:03.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Dockerfile",
               "RelativeDocumentMoniker": "Inventory.AuthAPI\\Dockerfile",
@@ -87,15 +104,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-09-17T00:38:45.997Z"
+              "WhenOpened": "2024-09-17T00:38:45.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -105,7 +123,7 @@
               "RelativeDocumentMoniker": "deployment.yml",
               "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\deployment.yml",
               "RelativeToolTip": "deployment.yml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-09-16T21:25:33.431Z",
               "EditorCaption": ""

@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.reportmanagement\\reportcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|solutionrelative:inventory.reportmanagement\\reportcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{255DF529-F517-4F81-A3A0-CADF7B97362E}|Solution Items{255DF529-F517-4F81-A3A0-CADF7B97362E}|C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{255DF529-F517-4F81-A3A0-CADF7B97362E}|Solution Items{255DF529-F517-4F81-A3A0-CADF7B97362E}|solutionrelative:deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{0BD8CBA7-5E1A-436B-BF28-032784AF7C34}|Inventory.StockManagement\\Inventory.StockManagement.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.stockmanagement\\stockcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BD8CBA7-5E1A-436B-BF28-032784AF7C34}|Inventory.StockManagement\\Inventory.StockManagement.csproj|solutionrelative:inventory.stockmanagement\\stockcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.authapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|solutionrelative:inventory.authapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{0BD8CBA7-5E1A-436B-BF28-032784AF7C34}|Inventory.StockManagement\\Inventory.StockManagement.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.stockmanagement\\stockcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BD8CBA7-5E1A-436B-BF28-032784AF7C34}|Inventory.StockManagement\\Inventory.StockManagement.csproj|solutionrelative:inventory.stockmanagement\\stockcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +21,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1544,
+          "DockedWidth": 543,
           "SelectedChildIndex": 14,
           "Children": [
             {
@@ -78,54 +74,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "docker-compose",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.dcproj",
-              "RelativeDocumentMoniker": "docker-compose.dcproj",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.dcproj",
-              "RelativeToolTip": "docker-compose.dcproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-23T16:23:03.89Z",
+              "DocumentIndex": 1,
+              "Title": "StockContextSeed.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.StockManagement\\StockContextSeed.cs",
+              "RelativeDocumentMoniker": "Inventory.StockManagement\\StockContextSeed.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.StockManagement\\StockContextSeed.cs",
+              "RelativeToolTip": "Inventory.StockManagement\\StockContextSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T03:00:38.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Dockerfile",
-              "RelativeDocumentMoniker": "Inventory.AuthAPI\\Dockerfile",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Dockerfile",
-              "RelativeToolTip": "Inventory.AuthAPI\\Dockerfile",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwB4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-17T00:39:16.422Z",
+              "DocumentIndex": 2,
+              "Title": "StockContext.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.StockManagement\\StockContext.cs",
+              "RelativeDocumentMoniker": "Inventory.StockManagement\\StockContext.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.StockManagement\\StockContext.cs",
+              "RelativeToolTip": "Inventory.StockManagement\\StockContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T03:00:18.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-09-17T00:38:45.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "deployment.yml",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\deployment.yml",
-              "RelativeDocumentMoniker": "deployment.yml",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\deployment.yml",
-              "RelativeToolTip": "deployment.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-09-16T21:25:33.431Z",
+              "Title": "ReportContext.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.ReportManagement\\ReportContext.cs",
+              "RelativeDocumentMoniker": "Inventory.ReportManagement\\ReportContext.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.ReportManagement\\ReportContext.cs",
+              "RelativeToolTip": "Inventory.ReportManagement\\ReportContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgvxYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T02:59:03.705Z",
               "EditorCaption": ""
             }
           ]

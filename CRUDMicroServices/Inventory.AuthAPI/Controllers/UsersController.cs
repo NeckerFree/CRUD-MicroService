@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using CommonLibrary.RabbitMQ;
+using Inventory.AuthManagement;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Inventory.AuthManagement;
 
 namespace Inventory.AuthAPI.Controllers
 {
@@ -14,12 +10,13 @@ namespace Inventory.AuthAPI.Controllers
     public class UsersController : ControllerBase
     {
         private readonly AuthContext _context;
-
-        public UsersController(AuthContext context)
+private readonly IRabbitMQService _rabbitMqService;
+        public UsersController(AuthContext context, IRabbitMQService rabbitMqService)
         {
             _context = context;
+            _rabbitMqService = rabbitMqService;
         }
-
+        
         // GET: api/Users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()

@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CommonLibrary\CommonLibrary.csproj" />
     <ProjectReference Include="..\Inventory.AuthManagement\Inventory.AuthManagement.csproj" />
   </ItemGroup>
 

@@ -3,31 +3,53 @@
   "WorkspaceRootPath": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{EED78A1E-18F2-436B-82D7-851D93CAAF0E}|CommonLibrary\\CommonLibrary.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\commonlibrary\\rabbitmq\\startupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EED78A1E-18F2-436B-82D7-851D93CAAF0E}|CommonLibrary\\CommonLibrary.csproj|solutionrelative:commonlibrary\\rabbitmq\\startupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.reportmanagement\\reportcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6C7355A-CD21-4ABF-9F28-0EB4A537CD6F}|docker-compose.dcproj|solutionrelative:inventory.reportmanagement\\reportcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AFB7A4A-6843-46D9-912C-EDB26BA14076}|Inventory.AuthAPI\\Inventory.AuthAPI.csproj|solutionrelative:inventory.authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BD8CBA7-5E1A-436B-BF28-032784AF7C34}|Inventory.StockManagement\\Inventory.StockManagement.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.stockmanagement\\stockcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BD8CBA7-5E1A-436B-BF28-032784AF7C34}|Inventory.StockManagement\\Inventory.StockManagement.csproj|solutionrelative:inventory.stockmanagement\\stockcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BD8CBA7-5E1A-436B-BF28-032784AF7C34}|Inventory.StockManagement\\Inventory.StockManagement.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\inventory.stockmanagement\\stockcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BD8CBA7-5E1A-436B-BF28-032784AF7C34}|Inventory.StockManagement\\Inventory.StockManagement.csproj|solutionrelative:inventory.stockmanagement\\stockcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EED78A1E-18F2-436B-82D7-851D93CAAF0E}|CommonLibrary\\CommonLibrary.csproj|c:\\elio\\development\\projects\\crud-microservice\\crudmicroservices\\commonlibrary\\commonlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EED78A1E-18F2-436B-82D7-851D93CAAF0E}|CommonLibrary\\CommonLibrary.csproj|solutionrelative:commonlibrary\\commonlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 543,
-          "SelectedChildIndex": 12,
+          "DockedHeight": 374,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartupExtension.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\CommonLibrary\\RabbitMQ\\StartupExtension.cs",
+              "RelativeDocumentMoniker": "CommonLibrary\\RabbitMQ\\StartupExtension.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\CommonLibrary\\RabbitMQ\\StartupExtension.cs",
+              "RelativeToolTip": "CommonLibrary\\RabbitMQ\\StartupExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T04:25:55.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Inventory.AuthAPI\\Program.cs",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.AuthAPI\\Program.cs*",
+              "RelativeToolTip": "Inventory.AuthAPI\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T04:15:08.307Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -78,54 +100,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-09-25T03:02:17.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StockContextSeed.cs",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.StockManagement\\StockContextSeed.cs",
-              "RelativeDocumentMoniker": "Inventory.StockManagement\\StockContextSeed.cs",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.StockManagement\\StockContextSeed.cs",
-              "RelativeToolTip": "Inventory.StockManagement\\StockContextSeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T03:00:38.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StockContext.cs",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.StockManagement\\StockContext.cs",
-              "RelativeDocumentMoniker": "Inventory.StockManagement\\StockContext.cs",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.StockManagement\\StockContext.cs",
-              "RelativeToolTip": "Inventory.StockManagement\\StockContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T03:00:18.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReportContext.cs",
-              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.ReportManagement\\ReportContext.cs",
-              "RelativeDocumentMoniker": "Inventory.ReportManagement\\ReportContext.cs",
-              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\Inventory.ReportManagement\\ReportContext.cs",
-              "RelativeToolTip": "Inventory.ReportManagement\\ReportContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T02:59:03.705Z",
+              "Title": "CommonLibrary",
+              "DocumentMoniker": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\CommonLibrary\\CommonLibrary.csproj",
+              "RelativeDocumentMoniker": "CommonLibrary\\CommonLibrary.csproj",
+              "ToolTip": "C:\\Elio\\Development\\Projects\\CRUD-MicroService\\CRUDMicroServices\\CommonLibrary\\CommonLibrary.csproj*",
+              "RelativeToolTip": "CommonLibrary\\CommonLibrary.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-26T04:13:31.677Z",
               "EditorCaption": ""
             }
           ]

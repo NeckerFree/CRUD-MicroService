@@ -1,12 +1,16 @@
+using CommonLibrary.Consumer;
+using CommonLibrary.RabbitMQ;
 using Inventory.AuthManagement;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
-
+using static CommonLibrary.RabbitMQ.StartupExtension;
 var builder = WebApplication.CreateBuilder(args);
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddCommonService(builder.Configuration);
+builder.Services.AddSingleton<IConsumerService, ConsumerService>();
+builder.Services.AddHostedService<ConsumerHostedService>();
 builder.Services.AddDbContext<AuthContext>(options =>
 {
     string connectionString = Environment.GetEnvironmentVariable("AuthDockerConnection") ??
